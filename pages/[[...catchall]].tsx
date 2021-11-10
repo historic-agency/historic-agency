@@ -52,7 +52,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         catchall: mod.path.substring(1).split("/"),
       },
     })),
-    fallback: "block"
+    fallback: "blocking"
   };
 }
 
