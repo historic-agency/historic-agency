@@ -22,7 +22,7 @@ export default function PlasmicLoaderPage(props: {
       prefetchedData={plasmicData}
     >
       <PlasmicComponent component={plasmicData.entryCompMetas[0].name} />
-    </PlasmicRootProvider>i
+    </PlasmicRootProvider>
   );
 }
 
