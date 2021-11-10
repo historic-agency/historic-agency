@@ -8,8 +8,9 @@ export default function Host() {
   return PLASMIC && (
     <div>
       <Head>
-        <Script src="https://static1.plasmic.app/preamble.js" ></Script>
+        {/* Nothing */}
       </Head>
+      <Script src="https://static1.plasmic.app/preamble.js" ></Script>
       <PlasmicCanvasHost />
     </div>
   );
